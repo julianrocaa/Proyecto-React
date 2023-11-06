@@ -1,0 +1,241 @@
+/* TIPOGRAFÍA Y COLORES */          
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap');
+
+
+:root {
+    --floral-white: #fffcf2ff;
+    --timberwolf: #ccc5b9ff;
+    --black-olive: #403d39ff;
+    --eerie-black: #252422ff;
+    --flame: #eb5e28ff;
+}
+
+/* CUERPO DEL CÓDIGO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Rubik";
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* HEADER */
+
+body {
+    background-color: var(--timberwolf);
+}
+
+header {
+    background: var(--black-olive);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 85px;
+    padding: 0px 20px 0px 20px;
+    position: sticky;
+    top: 0;
+  
+}
+
+.logo {
+    height: 85px;
+    padding-top: 10px;
+    
+}
+
+
+/* NAVBAR */
+
+.navbar,
+.navbar-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    gap: 30px;
+}
+
+.navbar-list {
+    gap: 30px;
+}
+
+.navbar-list a {
+    font-weight: 800;
+    color: var(--floral-white);
+}
+
+
+
+/* PORTADA */
+
+#portada {
+    background-image: url(/assets/Backround.jpg);
+    box-shadow: 1px 10px 37px grey;
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 100% 740px;
+    padding: 250px;
+    padding-bottom: 25%;
+}
+
+.portada-info span {
+    background-color: #ca6702;
+    background-image: linear-gradient(43deg, #ca6702 0%, #ee9b00 19%, #94d2bd 60%, #0a9396 80%, #005f73 100%);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+.portada-info h1 {
+    padding-top: 100px;
+    font-size: 37px;
+    font-weight: 900;
+
+}
+
+.portada-info p {
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ABOUT US  */
+
+#nosotros {
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+
+.nosotros-info {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.nosotros-info h1 {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+    color: var(--flame);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.nosotros-info p {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
+
+
+#products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#products h2 {
+    padding-top: 30px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.products-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 1200px;
+    gap: 10px;
+}
+
+.product {
+    width: 280px;
+    width: 280px;
+    background: var(--eerie-black);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.img-products {
+    width:100%;
+}
+
+.product-top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: var(--flame);
+}
+
+#ayuda h2 {
+    font-size: 50px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.ayuda-info {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    padding-right: 40px;
+    gap: 50px;
+}
+
+
+#footer {
+    background-color: var(--eerie-black);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--outer-space);
+    height: 150px;
+    margin-top: 50px;
+}
+
+.footer-info img {
+    width: 150px;
+    padding-top: 28px;
+}
+
+.footer-info p {
+    color: #343a40;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.footer-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-img img {
+    width: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-inline: 15px;
+    cursor: pointer;
+}
