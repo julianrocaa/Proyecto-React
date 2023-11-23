@@ -1,0 +1,13 @@
+#form-contact {
+   display: flex;
+   flex-direction: column;
+   text-align: center;
+   align-items: center;
+   gap: 10px;
+   margin: 100px;
+   margin-left: 100px;
+}
+
+
+
+

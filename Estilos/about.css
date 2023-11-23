@@ -1,0 +1,26 @@
+#about {
+    display: flex;
+    justify-content: center;
+}
+
+.about-info {
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.about-info h1 {
+    display: flex;
+    justify-content: center;
+    -webkit-text-stroke: 1px black;
+    color: var(--flame);
+    font-weight: 900;
+    font-size: 40px;
+}
+
+.about-info p {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 10px;
+}
